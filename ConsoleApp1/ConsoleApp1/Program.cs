@@ -10,14 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point();
-            p1.x = 3;
-            p1.y = 5;
-            p1.sym = '*';
-
+            Point p1 = new Point(3,6,'#');
+            
             p1.Draw();
 
-
+            List<int> numList = new List<int>();
+            numList.Add( 0 );
+            numList.Add( 1 );
+            numList.Add( 2 );
             Console.ReadLine();
 
         }
